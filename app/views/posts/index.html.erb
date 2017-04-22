@@ -1,0 +1,10 @@
+<h1>SocialApp Index</h1>
+<p>Enjoy your feed</p>
+
+<% @posts.each do |x| %>
+    <div class ="white">
+    <%= image_tag x.image.url(:medium)%>
+    <br>
+    <%= x.description%>
+    </div>
+<% end%>
