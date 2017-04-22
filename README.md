@@ -5,20 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 2.4.0-p0
 
-* System dependencies
+* Rails: 5.0.2
+
+* For authentication: https://github.com/plataformatec/devise
+
+* Bootstrap: https://github.com/twbs/bootstrap-sass
+
+* For files atachment: https://github.com/thoughtbot/paperclip
 
 * Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 
