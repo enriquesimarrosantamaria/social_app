@@ -14,11 +14,20 @@ class PostsController < ApplicationController
   def create
     @post=Post.new(permit_post)
     if @post.save
-      flash[:success] = "Success!!"
+      flash[:success] = "Success creating!!"
       redirect_to post_path(@post)
     else
       flash[:error] = @post.errors.full_messages
       redirect_to new_post_path
+      end
+  end
+
+  def delete
+    if @post.delete
+      flash[:success] = "Success deleting!!"
+      redirect_to post_path(@post)
+    else
+      flash[:error] = @post.errors.full_messages
       end
   end
 

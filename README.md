@@ -13,8 +13,12 @@ Things you may want to cover:
 
 * Bootstrap: https://github.com/twbs/bootstrap-sass
 
-* For files atachment: https://github.com/thoughtbot/paperclip
+* For files attachment: https://github.com/thoughtbot/paperclip
+
+* Images path: social_app/public/system/posts/images
+
+* https://github.com/tcocca/acts_as_follower
 
 * Configuration
 
-* 
+
